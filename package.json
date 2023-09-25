@@ -7,5 +7,9 @@
     "dev": "node src/server.js"
   },
   "author": "Priyansh Rajwar <rajwars.priyansh@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "typescript": "^5.2.2"
+  }
 }
