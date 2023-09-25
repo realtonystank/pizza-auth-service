@@ -4,12 +4,15 @@
   "description": "A user management service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "author": "Priyansh Rajwar <rajwars.priyansh@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.6.5",
+    "prettier": "3.0.3",
     "typescript": "^5.2.2"
   }
 }
